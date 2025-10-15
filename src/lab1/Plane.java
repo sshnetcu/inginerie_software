@@ -8,12 +8,10 @@ public class Plane extends Vehicle {
         this.companyName = companyName;
     }
 
-    @Override
     public String getName() {
         return super.getName() + " " + companyName;
     }
 
-    @Override
     public void move() {
         System.out.println("TODO: implement flying logic");
     }
